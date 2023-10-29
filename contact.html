@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name = "keywords" content="planten, tuinieren, beestjes, voordelen, hulpmiddelen," />
+    <meta name = "description" content="handige tips en waardevolle informatie over tuinieren, wat voor soort planten makkelijk zijn te kweken, welke beestjes in de tuin komen, de voordelen van tuinieren, hulpmiddelen en de mogelijkheid contact op te nemen. Deze site is specifiek gemaakt voor senioren die hulp nodig hebben bij het tuinieren of graag meer willen leren in het algemeen." />
+    <link rel="stylesheet" type="text/css" href="css/contact.css"/>
+    <link rel="icon" type="image/png" href="img/leaffavicon3.png"/> 
+    <meta name = "author" content="Daniel Flierman" />
+
+    <title>Contact - Planten en Beestjes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id ="pb_header">
+        <h1>
+            <a href="#">
+                <img src="img/ladybugleaflogo1.png" alt="logo, leaf" title="PBLogo"/>
+            </a>
+            <span>Contact</span>
+        </h1>
+        <p>Tuinieren voor senioren</p>
+    </header>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="planten.html">Planten</a></li>
+                <li><a href="beestjes.html">Beestjes</a></li>
+                <li><a href="voordelen.html">Voordelen</a></li>
+                <li><a href="hulpmiddelen.html">Hulpmiddelen</a></li>
+                <li class="contact-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <aside id="pb_aside">
+            <a href="#">
+                <img src="/projectsite/img/vlinder-en-aside.jpg" alt="Achtergrondplaatje, kleurrijk" title="Achtergrondplaatje" />
+            </a>
+        </aside>
+    <main>
+        <section class="contact-form">
+            <form>
+                <fieldset>
+                    <legend><h2>Contact Form</h2></legend> 
+                    <h3>Velden met een * zijn verplicht</h3>
+                    <label for="name">Naam: *</label>
+                    <input type="text" id="name" name="name" placeholder="Voor- en achternaam" required>
+
+                    <label for="email">Email: *</label>
+                    <input type="email" id="email" name="email" placeholder ="naam@voorbeeld.nl" required>
+                
+                    <p>Wat is het onderwerp van uw bericht?</p>
+
+                    <label class="radio-description">
+                        <input type="radio" id="option1" name="options" value="1">
+                        Algemene vraag
+                    </label>
+            
+                    <label class="radio-description">
+                        <input type="radio" id="option2" name="options" value="2">
+                        Klacht
+                    </label>
+            
+                    <label class="radio-description">
+                        <input type="radio" id="option3" name="options" value="3">
+                        Feedback
+                    </label>
+
+                    <label class="radio-description">
+                        <input type="radio" id="option4" name="options" value="4">
+                        Anders, namelijk...
+                    </label>
+                    <label class="radio-description">
+                        <input type="text" name="customOption" class="custom-option" placeholder="Typ hier" />
+                    </label>
+                    
+                    <label for="message">Bericht: *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Typ hier uw bericht" required></textarea>
+
+                    <button type="submit">Versturen</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer id="pb_footer">
+        <section id="pb_footer_section_2">
+            <em>&copy; 2023 - Planten en Beestjes</em>
+        </section>
+</footer>
+</body>
+</html>

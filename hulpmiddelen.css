@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    #mainmenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mainmenu li {
+        margin: 10px 0;
+    }
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: url('/projectsite/fonts/Sarabun-Regular.ttf') format('truetype');
+}
+
+body {
+    color: #333;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #c2f7bd;
+}
+
+#pb_aside {
+    width: 100%;
+    max-height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+#pb_header {
+    background-color: #c2f7bd;
+    padding: 20px;
+    text-align: center;
+}
+
+#pb_header h1 span {
+    text-decoration: none;
+    color: #005a00;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+#pb_header h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pb_header p {
+    font-size: 30px;
+    color:#007700;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+#main {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#main p {
+    text-indent: 20px;
+    word-spacing: 2px;
+}
+
+#mainmenu {
+    background-color: #333;
+    text-align: center;
+}
+
+#mainmenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#mainmenu li {
+    display: inline;
+    margin: 10px 30px;
+}
+
+#mainmenu a {
+    text-decoration: none;
+    color: #c2f7bd;
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+#mainmenu a:hover {
+    color: #4CAF50;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 40px;
+    margin: 0px;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.5px;
+}
+
+.beestjes-img {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-container .homepage-images img{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    border: 4px solid #333;
+    position: static;
+} 
+
+#planten-main-section {
+    border-bottom: 4px solid #333;
+    border-top: 4px solid #333;
+}
+.main-planten {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-planten > h2 {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-planten > p {
+    font-size: 25px;
+}
+
+.gridcontainer-planten1 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    border-bottom: 4px solid #333;
+}
+
+.gridcontainer-planten1 > article {
+    background-color: #c2f7bd;
+    text-align: left;
+    padding: 1em 1.5rem;
+    font-size: 30px; 
+}
+
+.gridcontainer-planten1 > article > h1 {
+    font-size: 25px;
+}
+
+.gridcontainer-planten1 > article > p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.gridcontainer-planten2 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.gridcontainer-planten2 > article {
+    background-color: #c2f7bd;
+    text-align: left;
+    padding: 1em 1.5rem;
+    font-size: 30px; 
+}
+
+.gridcontainer-planten2 > article > h1 {
+    font-size: 25px;
+}
+
+.gridcontainer-planten2 > article > p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.gridcontainer-planten1 > .planten-images img {
+    float: none;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    border: 4px solid #333;
+}
+
+.gridcontainer-planten2 > .planten-images img {
+    float: none;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 4px solid #333;
+}
+
+#mainmenu .hulpmiddelen-link {
+    background-color: #c2f7bd; 
+    padding: 0.5px 10px; 
+    border-radius: 5px; 
+    padding-bottom: 3px;
+}
+
+#mainmenu .hulpmiddelen-link a {
+    color: #007700; 
+    text-decoration: none;
+}
+
+#mainmenu .hulpmiddelen-link a:hover {
+    color: black;
+}
+
+/* Footer styling */
+#pb_footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#pb_footer_section_2 h2 {
+    font-size: 14px;
+}

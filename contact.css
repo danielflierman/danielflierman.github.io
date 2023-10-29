@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    #mainmenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mainmenu li {
+        margin: 10px 0;
+    }
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: url('/projectsite/fonts/Sarabun-Regular.ttf') format('truetype');
+}
+
+body {
+    color: #333;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #c2f7bd;
+}
+
+#pb_aside {
+    width: 100%;
+    max-height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+#pb_header {
+    background-color: #c2f7bd;
+    padding: 20px;
+    text-align: center;
+}
+
+#pb_header h1 span {
+    text-decoration: none;
+    color: #005a00;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+#pb_header h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pb_header p {
+    font-size: 30px;
+    color:#007700;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+#main {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#main p {
+    text-indent: 20px;
+    word-spacing: 2px;
+}
+
+#mainmenu {
+    background-color: #333;
+    text-align: center;
+}
+
+#mainmenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#mainmenu li {
+    display: inline;
+    margin: 10px 30px;
+}
+
+#mainmenu a {
+    text-decoration: none;
+    color: #c2f7bd;
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+#mainmenu a:hover {
+    color: #4CAF50;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 40px;
+    margin: 0px;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.5px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid;
+    border-color: #000;
+    border-style: solid;
+}
+
+
+.contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 20px;
+    margin: 5px 0;
+    border: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+.radio-description {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.radio-description input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-description .custom-option {
+    display: none;
+}
+
+.radio-description input[type="radio"]:checked + .custom-option {
+    display: inline-block;
+}
+
+#mainmenu .contact-link {
+    background-color: #c2f7bd; 
+    padding: 0.5px 10px; 
+    border-radius: 5px; 
+    padding-bottom: 3px;
+}
+
+#mainmenu .contact-link a {
+    color: #007700; 
+    text-decoration: none;
+}
+
+#mainmenu .contact-link a:hover {
+    color: black;
+}
+
+/* Footer styling */
+#pb_footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-form > form > fieldset {
+    padding: 20px;
+    padding-bottom: 100px;
+
+}
+
